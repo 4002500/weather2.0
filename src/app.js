@@ -68,8 +68,6 @@ app.get('/*', (req, res) => {
         text: 'The page you requested has not been found.'   
     })
 })
-
-
 app.listen(port, () => {
     console.log(`SERVER LISTENING ON PORT ${port}...`)
 })
