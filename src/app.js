@@ -49,7 +49,7 @@ app.get('/about', (req, res) => {
     res.render('about', {
         title: 'About Page',
         name: 'j624',
-        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam cupiditate magnam asperiores, autem obcaecati illum maiores facilis ratione ullam perferendis recusandae a vitae laborum quia molestias odit? Quod, dicta a.'   
+        text: 'This site was created by Jihad Ali on Mar 18, 2021. It uses data from darksky.net and mapbox.com.'   
     })
 })
 
