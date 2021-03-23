@@ -1,7 +1,7 @@
 const request = require('request')
 
 const weather = (query, callback) => {
-    const url = `http://api.weatherstack.com/current?access_key=57186b17e6f08ec98f3f69b32c24a2fb&query=${encodeURIComponent(query)}`
+    const url = `http://api.weatherstack.com/current?access_key=APIKEY&query=${encodeURIComponent(query)}`
     request({ url, json: true }, (error, { body }) => {
         if (error) {
             callback('Unable to connect to location services.')
